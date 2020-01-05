@@ -6,7 +6,6 @@ from getpass import getpass
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
-from prometheus_client import CollectorRegistry, Gauge, push_to_gateway
 
 environment = input('Environment: ')
 myuser = getpass('Username: ')
